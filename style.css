@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.hd-container {
+    width: 100%;
+    height: 50px;
+    background: rgba(51, 51, 51, 0.8);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo-txt {
+    float: left;
+    position: absolute;
+    padding: 10px;
+}
+
+.logo-txt-spn {
+    color: #7CB518;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.nav-link {
+    float: right;
+    width: auto;
+}
+
+.hd-list {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #7CB518;
+    transition: 0.5s;
+}
+
+
+.bg-header {
+    height: 650px;
+    background-image: url(./img/bg-me.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hd-content {
+    margin-top: 200px;
+    padding: 50px;
+    position: absolute;
+}
+
+.hd-text-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.hd-sub-text {
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    
+}
+
+
+
+.job {
+    color: #002626;
+    font-weight: 700;
+}
+
+#about {
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 6px #ccc;
+}
+
+.bio-data {
+    width: 100%;
+    padding: 30px;
+}
+
+.bio-title {
+    border-bottom: solid 3px #7CB518;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 10px;
+}
+
+.bio-details {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+label {
+    font-weight: bold;
+    
+}
+
+.bio-item {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+}
+
+.bio-person {
+    font-size: 20px;
+    margin: 15px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#services {
+    padding: 20px;
+    margin: 0;
+}
+
+
+
+.sv-header {
+    padding: 30px;
+}
+
+.sv-title {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline #7CB518;
+}
+
+.sv-house {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sv-feature {
+    width: 330px;
+    height: 250px;
+    padding: 40px;
+    margin: 30px;
+    box-shadow: 0 0 20px #BBDA73;
+    background-color: #fff;
+    transition: 1s;
+}
+
+.sv-feature:hover {
+    transform: scale(1.1);
+}
+
+
+.sv-ft-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.sv-ft-content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+
+.sv-icon {
+    font-size: 40px;
+    color: #7CB518;
+    padding: 10px;
+    margin: 0 130px;
+}
+
+.ft-container {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #F5F9EB;
+}
+
+.ct-info{
+    padding: 10px;
+    width: 40%;
+    height: auto;
+}
+
+.ct-header-text {
+    padding: 20px;
+}
+
+.ct-title-text {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 3px solid #7CB518;
+    display: inline;
+}
+
+.ct-details {
+    padding: 20px;
+}
+
+.ct-icon {
+    float: left;
+    margin: 10px;
+    font-size: 25px;
+    color: #7CB518;
+}
+
+.ct-content {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.ct-ti {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ct-dt {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ct-form {
+    padding: 10px;
+    width: 40%;
+}
+
+.ct-box {
+    margin: 10px;
+}
+
+.ct-label {
+    font-family: 'Roboto', sans-serif; 
+    display: flex;
+    padding: 10px 0px;
+
+}
+
+.ct-input {
+    width: 90%;
+    display: flex;
+    padding: 10px 20px;
+    font-family: inherit;
+    border-radius: 4px;
+    outline: 0;
+    border: 1px solid #D4D4D4;
+}
+
+.button {
+    width: 30%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 0;
+    background-color: #7CB518;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.button:hover {
+    background-color: #002626;
+}
